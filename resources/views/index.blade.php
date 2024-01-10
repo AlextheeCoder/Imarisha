@@ -22,7 +22,6 @@
               <h2 style=" margin-left: 80px;" >Our Farmers</h2>
               <p  style=" margin-left: 80px;" >Imarisha is dedicated to empowering farmers in diverse agricultural sectors, taking great pride in its comprehensive approach.
                 Beyond providing specifically tailored loans for activities like animal husbandry or crop cultivation, our mission extends to offering a wide array of services. </p>
-                <p  style=" margin-left: 80px;  margin-top:20px">We go beyond financial support to ensure farmers have access to resources that align with their diverse requirements, promoting thriving agricultural practices. Whether it involves the development of livestock, crop cultivation support, or other essential services like marketing, manpower provision, and knowledge sharing on best farming practices, Imarisha stands as a committed partner in fostering sustainable and successful farming endeavors.</p>
               <div  style=" margin-left: 80px;"  class="learn-more">
                   <a href="#">Learn More</a>
               </div>
