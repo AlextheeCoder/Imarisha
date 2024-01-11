@@ -5,15 +5,15 @@
                 <h2>Register</h2>
             </div>
             <div class="formcont">
-                <form method="POST" action="" enctype="multipart/form-data">
+                <form method="POST" action="/users/register" enctype="multipart/form-data">
                     @csrf
                     <div class="part">
                         
-                        <input type="text" id="name" name="firstname" required placeholder="First Name" value="{{old('firstname')}}">
+                        <input type="text" id="firstname" name="firstname" required placeholder="First Name">
                     </div>
                     <div class="part">
                         
-                        <input type="text" id="name" name="sirname" required placeholder="Sir Name" value="{{old('sirname')}}">
+                        <input type="text" id="lastname" name="lastname" required placeholder="Last Name">
                     </div>
                     <div class="part">
                         <select name="gender" id="gender" style=" width: 100%; padding: 10px; border: 1px solid #ccc;border-radius: 4px; font-size: 16px;transition: border-color 0.3s;">
@@ -28,21 +28,27 @@
                       </div>
                     <div class="part">
                         
-                        <input type="email" id="email" name="email" required placeholder="Email" value="{{old('email')}}">
+                        <input type="email" id="email" name="email" required placeholder="Email">
                         @error('email')
                         <p style="font-size: 12px; color: red; margin-top: 8px; align-self:center;">{{$message}}</p>
                         @enderror
                     </div>
                     <div class="part">
                         
-                        <input type="number" id="number" name="number" required placeholder="Phone Number" value="{{old('number')}}">
+                        <input type="number" id="number" name="number" required placeholder="Phone Number">
                     </div>
                     <div class="part">
-                        <input type="text" id="county" name="county" required placeholder="County of residence" value="{{old('county')}}">
+                        <input type="text" id="county" name="county" required placeholder="County of residence">
                     </div>
                     <div class="part">
-                        <input type="text" id="subcounty" name="subcounty" required placeholder="Sub-County of residence" value="{{old('subcounty')}}">
+                        <input type="text" id="subcounty" name="subcounty" required placeholder="Sub-County of residence">
                     </div>
+                    <div class="part">
+                        <select name="role" id="role" style=" width: 100%; padding: 10px; border: 1px solid #ccc;border-radius: 4px; font-size: 16px;transition: border-color 0.3s;">
+                          <option value="farmer">Farmer</option>
+                          <option value="provider">provider</option>
+                        </select>
+                      </div>
                     <div class="part">
                         <label for="image">Profile: </label>
                         <input type="file" id="profile" name="profile" required style="width: 97%; padding: 10px; border: 1px solid #ccc;border-radius: 4px; font-size: 16px;transition: border-color 0.3s;">

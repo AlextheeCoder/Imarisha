@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string('number');
             $table->string('county');
             $table->string('subcounty');
+            $table->string('role');
             $table->string('profile')->nullable();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
