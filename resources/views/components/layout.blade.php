@@ -17,15 +17,18 @@
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Contact</a></li>
-            <li><a href="/register">Sign In</a></li>
+          
             @auth
-            <li> <form style="display:inline" method="POST" action="/logout" id="logout-form">
+            <li> 
+                <form style="display:inline" method="POST" action="/logout" id="logout-form">
                 @csrf
                 <button type="submit" style="text-decoration: none; color:black; margin-right:20px;" >
                   <i class="fa fa-sign-out"></i> Logout
                 </button>
               </form>
             </li>
+            @else
+            <li><a href="/register">Sign In</a></li>
             @endauth
         
         </ul>

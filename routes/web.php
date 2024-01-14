@@ -34,3 +34,7 @@ Route::post('/logout', [UserController::class, 'logout']);
 
 //Farmer info
 Route::get('/farmers/info', [FarmerController::class, 'farmer_info']);
+
+
+//Farm profile
+Route::get('/farm/profile', [FarmerController::class, 'farm_profile']);
