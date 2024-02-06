@@ -45,47 +45,40 @@
     <label for="sources-of-finance">Sources of Finance:</label>
     <div class="checkbox-group">
         <label class="checkbox">
-            <input type="checkbox" id="finance-source-1" name="sources-of-finance" value="personal-savings">
+            <input type="checkbox" id="finance-source-1" name="sources-of-finance[]" value="personal-savings">
             <span class="checkmark"></span>
             <span class="text">Personal savings</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="finance-source-2" name="sources-of-finance" value="bank-loans">
+            <input type="checkbox" id="finance-source-2" name="sources-of-finance[]" value="bank-loans">
             <span class="checkmark"></span>
             <span class="text">Bank loans</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="finance-source-3" name="sources-of-finance" value="microfinance">
+            <input type="checkbox" id="finance-source-3" name="sources-of-finance[]" value="microfinance">
             <span class="checkmark"></span>
             <span class="text">Microfinance</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="finance-source-4" name="sources-of-finance" value="government-grants">
+            <input type="checkbox" id="finance-source-4" name="sources-of-finance[]" value="government-grants">
             <span class="checkmark"></span>
             <span class="text">Government grants</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="finance-source-5" name="sources-of-finance" value="friends-family-loans">
+            <input type="checkbox" id="finance-source-5" name="sources-of-finance[]" value="friends-family-loans">
             <span class="checkmark"></span>
             <span class="text">Friends/family loans</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="finance-source-6" name="sources-of-finance" value="crowdfunding">
+            <input type="checkbox" id="finance-source-6" name="sources-of-finance[]" value="crowdfunding">
             <span class="checkmark"></span>
             <span class="text">Crowdfunding</span>
         </label>
-
-        <label class="checkbox">
-            <input type="checkbox" id="finance-source-7" name="sources-of-finance" value="other">
-            <span class="checkmark"></span>
-            <span class="text">Other (Please specify)</span>
-        </label>
-        <input type="text" id="other-finance-source" name="other-finance-source">
     </div>
 </div>
 
@@ -116,41 +109,34 @@
     <label for="finance-access-challenges">Challenges in Finance Access:</label>
     <div class="checkbox-group">
         <label class="checkbox">
-            <input type="checkbox" id="finance-access-challenge-1" name="finance-access-challenges" value="high-interest-rates">
+            <input type="checkbox" id="finance-access-challenge-1" name="finance-access-challenges[]" value="high-interest-rates">
             <span class="checkmark"></span>
             <span class="text">High interest rates</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="finance-access-challenge-2" name="finance-access-challenges" value="stringent-criteria">
+            <input type="checkbox" id="finance-access-challenge-2" name="finance-access-challenges[]" value="stringent-criteria">
             <span class="checkmark"></span>
             <span class="text">Stringent criteria</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="finance-access-challenge-3" name="finance-access-challenges" value="complex-processes">
+            <input type="checkbox" id="finance-access-challenge-3" name="finance-access-challenges[]" value="complex-processes">
             <span class="checkmark"></span>
             <span class="text">Complex processes</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="finance-access-challenge-4" name="finance-access-challenges" value="limited-financial-knowledge">
+            <input type="checkbox" id="finance-access-challenge-4" name="finance-access-challenges[]" value="limited-financial-knowledge">
             <span class="checkmark"></span>
             <span class="text">Limited financial knowledge</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="finance-access-challenge-5" name="finance-access-challenges" value="lack-of-suitable-products">
+            <input type="checkbox" id="finance-access-challenge-5" name="finance-access-challenges[]" value="lack-of-suitable-products">
             <span class="checkmark"></span>
             <span class="text">Lack of suitable products</span>
         </label>
-
-        <label class="checkbox">
-            <input type="checkbox" id="finance-access-challenge-6" name="finance-access-challenges" value="other">
-            <span class="checkmark"></span>
-            <span class="text">Other (Please specify)</span>
-        </label>
-        <input type="text" id="other-finance-access-challenge" name="other-finance-access-challenge">
     </div>
 </div>
 

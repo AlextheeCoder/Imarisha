@@ -6,7 +6,6 @@
             <option value="individual">Individual Farmer</option>
             <option value="cooperative">Farming Cooperative</option>
             <option value="organization">Agricultural Organization</option>
-            <option value="other">Other (Please specify)</option>
         </select>
     </div>
    

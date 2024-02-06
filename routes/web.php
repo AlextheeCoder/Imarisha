@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\FarmerController;
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 
@@ -38,3 +39,6 @@ Route::get('/farmers/info', [FarmerController::class, 'farmer_info']);
 
 //Farm profile
 Route::get('/farm/profile', [FarmerController::class, 'farm_profile']);
+
+//Store Profile
+Route::post('/profile/store', [ProfileController::class,'store']);

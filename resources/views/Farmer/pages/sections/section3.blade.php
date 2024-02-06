@@ -17,47 +17,40 @@
     <label for="training-areas">Desired Training Areas:</label>
     <div class="checkbox-group">
         <label class="checkbox">
-            <input type="checkbox" id="training-area-input-1" name="training-areas" value="soil-health">
+            <input type="checkbox" id="training-area-input-1" name="training-areas[]" value="soil-health">
             <span class="checkmark"></span>
             <span class="text">Soil health</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="training-area-input-2" name="training-areas" value="crop-diversification">
+            <input type="checkbox" id="training-area-input-2" name="training-areas[]" value="crop-diversification">
             <span class="checkmark"></span>
             <span class="text">Crop diversification</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="training-area-input-3" name="training-areas" value="pest-disease-management">
+            <input type="checkbox" id="training-area-input-3" name="training-areas[]" value="pest-disease-management">
             <span class="checkmark"></span>
             <span class="text">Pest/disease management</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="training-area-input-4" name="training-areas" value="water-conservation">
+            <input type="checkbox" id="training-area-input-4" name="training-areas[]" value="water-conservation">
             <span class="checkmark"></span>
             <span class="text">Water conservation</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="training-area-input-5" name="training-areas" value="market-access">
+            <input type="checkbox" id="training-area-input-5" name="training-areas[]" value="market-access">
             <span class="checkmark"></span>
             <span class="text">Market access</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="training-area-input-6" name="training-areas" value="farming-technology">
+            <input type="checkbox" id="training-area-input-6" name="training-areas[]" value="farming-technology">
             <span class="checkmark"></span>
             <span class="text">Farming technology</span>
         </label>
-
-        <label class="checkbox">
-            <input type="checkbox" id="training-area-input-7" name="training-areas" value="other">
-            <span class="checkmark"></span>
-            <span class="text">Other (Please specify)</span>
-        </label>
-        <input type="text" id="other-training-area" name="other-training-area">
     </div>
 </div>
 

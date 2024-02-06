@@ -8,56 +8,60 @@
                 <form method="POST" action="/users/register" enctype="multipart/form-data">
                     @csrf
                     <div class="part">
-                        
-                        <input type="text" id="firstname" name="firstname" required placeholder="First Name">
+                        <label for="firstname">First Name:</label>
+                        <input type="text" id="firstname" name="firstname" required placeholder="Enter your first name">
                     </div>
                     <div class="part">
-                        
-                        <input type="text" id="lastname" name="lastname" required placeholder="Last Name">
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" id="lastname" name="lastname" required placeholder="Enter your last name">
                     </div>
                     <div class="part">
-                        <select name="gender" id="gender" style=" width: 100%; padding: 10px; border: 1px solid #ccc;border-radius: 4px; font-size: 16px;transition: border-color 0.3s;">
-                          <option value="male">Male</option>
-                          <option value="female">Female</option>
-                          <option value="other">Other</option>
+                        <label for="gender">Gender:</label>
+                        <select name="gender" id="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
                         </select>
-                      </div>
-                      <div class="part">
-                        <label for="date">Date of Birth: </label>
-                        <input type="date" id="dob" name="dob" required style="width: 97%; padding: 10px; border: 1px solid #ccc;border-radius: 4px; font-size: 16px;transition: border-color 0.3s;">
-                      </div>
+                    </div>
                     <div class="part">
-                        
-                        <input type="email" id="email" name="email" required placeholder="Email">
+                        <label for="dob">Date of Birth:</label>
+                        <input type="date" id="dob" name="dob" required>
+                    </div>
+                    <div class="part">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your email">
                         @error('email')
-                        <p style="font-size: 12px; color: red; margin-top: 8px; align-self:center;">{{$message}}</p>
+                            <p style="font-size: 12px; color: red; margin-top: 8px; align-self:center;">{{$message}}</p>
                         @enderror
                     </div>
                     <div class="part">
-                        
-                        <input type="number" id="number" name="number" required placeholder="Phone Number">
+                        <label for="number">Phone Number:</label>
+                        <input type="number" id="number" name="number" required placeholder="Enter your phone number">
                     </div>
                     <div class="part">
-                        <input type="text" id="county" name="county" required placeholder="County of residence">
+                        <label for="county">County of Residence:</label>
+                        <input type="text" id="county" name="county" required placeholder="Enter your county">
                     </div>
                     <div class="part">
-                        <input type="text" id="subcounty" name="subcounty" required placeholder="Sub-County of residence">
+                        <label for="subcounty">Sub-County of Residence:</label>
+                        <input type="text" id="subcounty" name="subcounty" required placeholder="Enter your sub-county">
                     </div>
                     <div class="part">
-                        <select name="role" id="role" style=" width: 100%; padding: 10px; border: 1px solid #ccc;border-radius: 4px; font-size: 16px;transition: border-color 0.3s;">
-                          <option value="farmer">Farmer</option>
-                          <option value="provider">provider</option>
+                        <label for="role">Role:</label>
+                        <select name="role" id="role">
+                            <option value="farmer">Farmer</option>
+                            <option value="provider">Provider</option>
                         </select>
-                      </div>
+                    </div>
                     <div class="part">
-                        <label for="image">Profile: </label>
-                        <input type="file" id="profile" name="profile" required style="width: 97%; padding: 10px; border: 1px solid #ccc;border-radius: 4px; font-size: 16px;transition: border-color 0.3s;">
-                      </div>
+                        <label for="profile">Profile Picture:</label>
+                        <input type="file" id="profile" name="profile" required>
+                    </div>
                     <div class="part">
-                        
-                        <input type="password" id="password" name="password" required placeholder="Password">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required placeholder="Enter your password">
                         @error('password')
-                        <p style="font-size: 12px; color: red; margin-top: 8px; align-self:center;">{{$message}}</p>
+                            <p style="font-size: 12px; color: red; margin-top: 8px; align-self:center;">{{$message}}</p>
                         @enderror
                     </div>
                     <div class="part">
@@ -66,7 +70,6 @@
                     <div class="notlogin">
                         <span>Already have an account <a href="/login" alt=#>Login</a></span>
                     </div>
-
                 </form>
             </div>
         </div>

@@ -1,37 +1,29 @@
 <x-layout>
-   <div class="homepage-container">
-      <header>
-         <div class="header-content">
-             <h1>A better harvest</h1>
-             <p>Unlocking the potential of small-scale farmers with best-in-class inputs, financing, insurance, and training</p>
-             <div class="buttons">
+    <div id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-5 col-md-5 co-sm-l2">
+                    <div class="about_box">
+                        <h2>Are you a farmer<br><strong class="black">Connect with Imarisha</strong></h2>
+                        <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>
 
-                 
-                 @auth
-                    <a href="/farm/profile" class="btn-farmer">Create profile</a>
-                    @else
-                    <a href="/login" class="btn-farmer">Sign in</a>
-                 @endauth
-             </div>
-         </div>
-     </header>
-   
-   <!-- Farmer Section -->
-   <div class="farmer-section">
-    <div class="image-side">
-        <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?q=80&w=1991&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Farmer Image">
-    </div>
-
-    <div class="text-side">
-        <h2>Why Imarisha</h2>
-        <p>Imarisha takes pride in providing specialized loans that empower farmers engaged in various agricultural fields, catering to their specific requirements, be it in animal husbandry or crop cultivation.</p>
-        <div class="learn-more">
-            <a href="#">Learn More</a>
+                        @auth
+                        <a href="/farm/profile">Create your profile</a>
+                            @else
+                        <a href="/login">Sign In</a>
+                        @endauth
+                        
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-7 co-sm-l2">
+                    <div class="about_img">
+                        <figure>
+                            <img style="border-radius: 100%; width: 80%; margin-left: 50px; margin-top:50px;" src="{{ asset('images/pic3.jpg') }}" alt="img" />
+                        </figure>
+                        
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-
-   
-
-   </div>
 </x-layout>

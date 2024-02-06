@@ -14,4 +14,6 @@ class FarmerController extends Controller
     public function farm_profile(){
         return view('Farmer.pages.profile-create');
     }
+
+
 }

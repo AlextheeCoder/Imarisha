@@ -32,27 +32,27 @@
     <label for="farming-challenges">Primary Farming Challenges:</label>
     <div class="checkbox-group">  
         <label class="checkbox">
-            <input type="checkbox" id="challenge-input-1" name="farming-challenges" value="access-inputs">
+            <input type="checkbox" id="challenge-input-1" name="farming-challenges[]" value="access-inputs">
             <span class="checkmark"></span>
             <span class="text">Access to quality inputs</span>
         </label>
         <label class="checkbox">
-            <input type="checkbox" id="challenge-input-2" name="farming-challenges" value="market-access">
+            <input type="checkbox" id="challenge-input-2" name="farming-challenges[]" value="market-access">
             <span class="checkmark"></span>
             <span class="text">Market access</span>
         </label>
         <label class="checkbox">
-            <input type="checkbox" id="challenge-input-3" name="farming-challenges" value="knowledge-techniques">
+            <input type="checkbox" id="challenge-input-3" name="farming-challenges[]" value="knowledge-techniques">
             <span class="checkmark"></span>
             <span class="text">Knowledge on techniques</span>
         </label>
         <label class="checkbox">
-            <input type="checkbox" id="challenge-input-4" name="farming-challenges" value="government-support">
+            <input type="checkbox" id="challenge-input-4" name="farming-challenges[]" value="government-support">
             <span class="checkmark"></span>
             <span class="text">Government support</span>
         </label>
         <label class="checkbox">
-            <input type="checkbox" id="challenge-input-5" name="farming-challenges" value="environmental-challenges">
+            <input type="checkbox" id="challenge-input-5" name="farming-challenges[]" value="environmental-challenges">
             <span class="checkmark"></span>
             <span class="text">Environmental challenges</span>
         </label>
@@ -117,47 +117,40 @@
     <label for="soil-improvement-techniques">Soil Improvement Techniques:</label>
     <div class="checkbox-group">
         <label class="checkbox">
-            <input type="checkbox" id="soil-improvement-input-1" name="soil-improvement-techniques" value="organic-matter-addition">
+            <input type="checkbox" id="soil-improvement-input-1" name="soil-improvement-techniques[]" value="organic-matter-addition">
             <span class="checkmark"></span>
             <span class="text">Organic matter addition</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="soil-improvement-input-2" name="soil-improvement-techniques" value="crop-rotation-diversification">
+            <input type="checkbox" id="soil-improvement-input-2" name="soil-improvement-techniques[]" value="crop-rotation-diversification">
             <span class="checkmark"></span>
             <span class="text">Crop rotation/diversification</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="soil-improvement-input-3" name="soil-improvement-techniques" value="conservation-tillage">
+            <input type="checkbox" id="soil-improvement-input-3" name="soil-improvement-techniques[]" value="conservation-tillage">
             <span class="checkmark"></span>
             <span class="text">Conservation tillage</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="soil-improvement-input-4" name="soil-improvement-techniques" value="cover-cropping">
+            <input type="checkbox" id="soil-improvement-input-4" name="soil-improvement-techniques[]" value="cover-cropping">
             <span class="checkmark"></span>
             <span class="text">Cover cropping</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="soil-improvement-input-5" name="soil-improvement-techniques" value="soil-testing">
+            <input type="checkbox" id="soil-improvement-input-5" name="soil-improvement-techniques[]" value="soil-testing">
             <span class="checkmark"></span>
             <span class="text">Soil testing</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="soil-improvement-input-6" name="soil-improvement-techniques" value="irrigation-management">
+            <input type="checkbox" id="soil-improvement-input-6" name="soil-improvement-techniques[]" value="irrigation-management">
             <span class="checkmark"></span>
             <span class="text">Irrigation management</span>
         </label>
-
-        <label class="checkbox">
-            <input type="checkbox" id="soil-improvement-input-7" name="soil-improvement-techniques" value="other">
-            <span class="checkmark"></span>
-            <span class="text">Other (Please specify)</span>
-        </label>
-        <input type="text" id="other-soil-improvement" name="other-soil-improvement">
     </div>
 </div>
 
