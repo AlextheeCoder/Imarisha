@@ -1720,8 +1720,8 @@ margin-right: 20px;
 }
 
 .banner-main .carousel-caption .buynow:hover {
-     border: #052501 solid 1px;
-     background: #052501;
+     border: #007f4f solid 1px;
+     background: #007f4f;
      color: #fff;
 }
 
@@ -1841,7 +1841,7 @@ margin: 0 auto;
     font-size: 17px;
     line-height: 29px;
     background: #007f4f;
-    border: #052501 solid 1px;
+    border: #007f4f solid 1px;
     padding: 12px 40px;
     display: inline-block;
     width: 231px;
@@ -1850,8 +1850,8 @@ border-radius: 18px;
 }
 .about .about_box a:hover {
     color: #fff;
-    background: #4bc714;
-    border: #4bc714 solid 1px;
+    background: #FFC000;
+    border: #FFC000 solid 1px;
 }
 .about_img {margin-top: 25px;}
 .about_img figure {margin: 0;}
@@ -1880,6 +1880,26 @@ border-radius: 18px;
 
 
 /** end for_box **/
+
+
+.farm-info-header {
+     background-color: #ffffff;
+     text-align: center;
+     padding: 20px; 
+     margin-top:100px;
+   }
+
+.ceo-quote{
+     background-image: url(../images/ceo.jpg);
+     text-align: center;
+     margin-top: 40px;
+     padding: 120px; 
+     margin-bottom: 50px;
+     font-weight: bold;
+}
+.ceo-quote img{
+     max-height: 400px;
+}
 
 /** offer **/
 .offer {

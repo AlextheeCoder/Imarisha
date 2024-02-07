@@ -66,7 +66,7 @@
                         <h2>About Imarisha<br><strong class="black">Farmers Best Solution</strong></h2>
                         <p>
                             Imarisha is revolutionizing agriculture by connecting farmers with essential services. From financing and labor to marketing and training, our platform facilitates seamless collaborations between farmers and providers. With a user-friendly interface and advanced algorithms, Imarisha ensures tailored solutions, enhancing productivity and efficiency. Join us in cultivating a future where farmers have easy access to the support they need for sustainable growth.</p>
-                        <a href="#">Join Us !</a>
+                        <a href="/farmers/info">Join Imarisha Farmers</a>
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-7 col-md-7 co-sm-l2">
@@ -214,82 +214,65 @@
                 <div class="carousel-inner">
                     <div class="carousel-item">
                         <div class="testomonial_section">
-
                             <div class="full testimonial_cont text_align_center cross_layout">
                                 <div class="row">
                                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 pa_right">
                                         <div class="testomonial_img">
-                                            <i><img src="images/tes.jpg" alt="#"/></i>
+                                            <i><img src="images/farmer1.jpg" alt="#"/></i>
                                         </div>
                                     </div>
                                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pa_left">
                                         <div class="cross_inner">
-                                            <h3>Johndue<br><strong class="ornage_color">Farm & CO</strong></h3>
-                                            <p><img src="icon/1.png" alt="#" />ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                                                <img src="icon/2.png" alt="#" />
-                                            </p>
-
+                                            <h3>John Kamau<br><strong class="ornage_color">Imarisha</strong></h3>
+                                            <p><img src="icon/1.png" alt="#" />Imarisha has revolutionized my farming journey. The platform's seamless connectivity with providers has significantly improved my crop yield and operational efficiency. A game-changer in agriculture! <img src="icon/2.png" alt="#" /></p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
+                
                     <div class="carousel-item active">
-
                         <div class="testomonial_section">
-                            <div class="full center">
-                            </div>
                             <div class="full testimonial_cont text_align_center cross_layout">
                                 <div class="row">
                                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 pa_right">
                                         <div class="testomonial_img">
-                                            <i><img src="images/tes.jpg" alt="#"/></i>
+                                            <i><img src="images/farmer2.jpg" alt="#"/></i>
                                         </div>
                                     </div>
                                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pa_left">
                                         <div class="cross_inner">
-                                            <h3>Johndue<br><strong class="ornage_color">Farm & CO</strong></h3>
-                                            <p><img src="icon/1.png" alt="#" />ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                                                <img src="icon/2.png" alt="#" />
-                                            </p>
-
+                                            <h3>Eddie Kimathi<br><strong class="ornage_color">Imarisha</strong></h3>
+                                            <p><img src="icon/1.png" alt="#" />Imarisha is a game-changer in the agricultural sector. With their support, my livestock management has reached new heights, and I've gained access to invaluable resources for sustainable farming.  <img src="icon/2.png" alt="#" /></p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
+                
                     <div class="carousel-item">
-
                         <div class="testomonial_section">
-                            <div class="full center">
-                            </div>
                             <div class="full testimonial_cont text_align_center cross_layout">
                                 <div class="row">
                                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 pa_right">
                                         <div class="testomonial_img">
-                                            <i><img src="images/tes.jpg" alt="#"/></i>
+                                            <i><img src="images/farmer3.jpg" alt="#"/></i>
                                         </div>
                                     </div>
                                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pa_left">
                                         <div class="cross_inner">
-                                            <h3>Johndue<br><strong class="ornage_color">Farm & CO</strong></h3>
-                                            <p><img src="icon/1.png" alt="#" />ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                                                <img src="icon/2.png" alt="#" />
-                                            </p>
-
+                                            <h3>Frank Mwenda<br><strong class="ornage_color">Imarisha</strong></h3>
+                                            <p><img src="icon/1.png" alt="#" />Imarisha has transformed my farming experience. Their platform connects me with reliable providers, and the result is improved crop yield, healthier livestock, and overall increased efficiency. <img src="icon/2.png" alt="#" /></p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
+                
 
             </div>
         </div>
@@ -303,7 +286,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="title">
-                        <h2>Get In <strong class="black"> Toucgh</strong></h2>
+                        <h2>Get In <strong class="black"> Touch</strong></h2>
                     </div>
                 </div>
             </div>
@@ -345,6 +328,8 @@
             </div>
         </div>
     </div>
+
+
 
    
     <!-- end contact -->

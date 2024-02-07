@@ -75,9 +75,8 @@
                                         <nav class="main-menu">
                                             <ul class="menu-area-main">
                                                 <li class="active"> <a href="/">Home</a> </li>
-                                                <li> <a href="#about">About</a> </li>
-                                                <li><a href="#product">Products</a></li>
-                                                <li><a href="#testimonial">Testimonial</a></li>
+                                                <li> <a href="#Farmers">Farmers</a> </li>
+                                                <li><a href="#Providers">Providers</a></li>
                                                 <li><a href="#contact">Contact Us</a></li>
 
                                             </ul>
@@ -122,7 +121,7 @@
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="address">
                             
-                            <a href="index.html"> <img src="{{ asset('images/logo.drawio1-removebg-preview.png') }}" alt="logo" /></a>
+                            <a href="/"> <img src="{{ asset('images/logo.drawio1-removebg-preview.png') }}" alt="logo" /></a>
                             <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et sdolor sit amet, consectetur adipiscing elit, </p>
                         </div>
                     </div>
@@ -132,9 +131,8 @@
                             <ul class="Links_footer">
                                 <li><img src="{{ asset('icon/3.png') }}" alt="#" /> <a href="#"> Join Us</a> </li>
                                 <li><img src="{{ asset('icon/3.png') }}" alt="#" /> <a href="#">Maintenance</a> </li>
-                                <li><img src="{{ asset('icon/3.png') }}" alt="#" /> <a href="#">Language Packs</a> </li>
-                                <li><img src="{{ asset('icon/3.png') }}" alt="#" /> <a href="#">LearnPress</a> </li>
-                                <li><img src="{{ asset('icon/3.png') }}" alt="#" /> <a href="#">Release Status</a> </li>
+                                <li><img src="{{ asset('icon/3.png') }}" alt="#" /> <a href="#">Blogs</a> </li>
+
                             </ul>
                             
                         </div>
@@ -211,8 +209,7 @@
         });
     </script>
     <script>
-        // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-        // Australia.
+        
         function initMap() {
             var map = new google.maps.Map(document.getElementById('map'), {
                 zoom: 11,
