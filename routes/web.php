@@ -21,6 +21,9 @@ Route::get('/',[Controller::class, 'index']);
 
 Route::get('/register', [UserController::class, 'register']);
 
+//Store Profile
+Route::post('/profile/store', [ProfileController::class, 'store']);
+
 Route::get('/login', [UserController::class, 'login']);
 
 //Storing users in database
@@ -40,5 +43,3 @@ Route::get('/farmers/info', [FarmerController::class, 'farmer_info']);
 //Farm profile
 Route::get('/farm/profile', [FarmerController::class, 'farm_profile']);
 
-//Store Profile
-Route::post('/profile/store', [ProfileController::class,'store']);
