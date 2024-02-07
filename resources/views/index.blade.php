@@ -64,8 +64,9 @@
                 <div class="col-xl-5 col-lg-5 col-md-5 co-sm-l2">
                     <div class="about_box">
                         <h2>About Imarisha<br><strong class="black">Farmers Best Solution</strong></h2>
-                        <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>
-                        <a href="#">Read More</a>
+                        <p>
+                            Imarisha is revolutionizing agriculture by connecting farmers with essential services. From financing and labor to marketing and training, our platform facilitates seamless collaborations between farmers and providers. With a user-friendly interface and advanced algorithms, Imarisha ensures tailored solutions, enhancing productivity and efficiency. Join us in cultivating a future where farmers have easy access to the support they need for sustainable growth.</p>
+                        <a href="#">Join Us !</a>
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-7 col-md-7 co-sm-l2">
@@ -113,13 +114,38 @@
         </div>
     </div>
     <!-- end for_box -->
+
+    <!--another about for providers -->
+    <div id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7 col-lg-7 col-md-7 co-sm-l2">
+                    <div class="about_img">
+                        <figure><img src="images/provider.jpg" alt="img" style="border-radius: 100%" /></figure>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 co-sm-l2">
+                    <div class="about_box">
+                        <h2>About Imarisha<br><strong class="black">Our Providers</strong></h2>
+                        <p>
+                            Imarisha welcomes providers to revolutionize agriculture with their expertise. Join our platform to optimize crops, enhance livestock, offer financial solutions, and connect with skilled labor. By partnering with Imarisha, you contribute to a robust support network, empowering farmers and driving sustainable growth. Join us in shaping the future of agriculture and expanding your influence in the industry.
+                        </p>
+                        <a href="#">Become a Provider</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- end for another about -->
     <!-- offer -->
     <div class="offer">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="title">
-                        <h2>Special <strong class="black"> Offers</strong></h2>
+                        <h2>Build Yourself with <strong class="black"> Imarisha</strong></h2>
                     </div>
                 </div>
             </div>
@@ -129,96 +155,38 @@
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 ">
                         <div class="offer_box">
-                            <h3>Agriculture Products</h3>
+                            <h3>Crops</h3>
                             <figure><img src="images/offer1.png" alt="img" /></figure>
-                            <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-
+                            <p>Maximize your crop yield with Imarisha's innovative solutions, designed to enhance cultivation practices and optimize agricultural output.</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin_ttt">
                         <div class="offer_box">
-                            <h3>Fresh Vegatables</h3>
-                            <figure><img src="images/offer2.png" alt="img" /></figure>
-                            <p>consectetur adipiscing elit, sed do eiusmodmpor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
+                            <h3>Livestock</h3>
+                            <figure><img src="images/cow.jpg" alt="img" style="border-radius: 50px"/></figure>
+                            <p>Elevate your livestock management with Imarisha, ensuring healthier animals and improved farming practices for increased productivity.</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin-lkk">
                         <div class="offer_box">
-                            <h3>Farm Factory</h3>
-                            <figure><img src="images/offer3.png" alt="img" /></figure>
-                            <p>consectetur adipiscing elit, sed do eiusmodmpor incididunt ut labore et dolore magna</p>
+                            <h3>Labor</h3>
+                            <figure><img src="images/labor.jpg" alt="img"  style="border-radius: 50px" /></figure>
+                            <p>Improve efficiency and reduce labor challenges with Imarisha's solutions, connecting you with skilled workers to enhance your farming operations.</p>
                         </div>
                     </div>
-
+            
                     <div class="col-md-12">
-                        <a class="read-more">See More</a>
+                        <a class="read-more">Join us !</a>
                     </div>
                 </div>
             </div>
+            
         </div>
     </div>
 
     <!-- end offer -->
 
     <!-- product -->
-    <div id="product" class="product">
-        <div class="container">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="title">
-                            <h2>Moon <strong class="black"> products</strong></h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                            <div class="product_box">
-                                <figure><img src="images/product_img1.jpg" alt="#" />
-                                    <h3>Fresh Apple </h3></figure>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                            <div class="product_box">
-                                <figure><img src="images/product_img2.jpg" alt="#" />
-                                    <h3>Fresh Aalu  </h3>
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                            <div class="product_box">
-                                <figure><img src="images/product_img4.jpg" alt="#" />
-                                    <h3>Rice Field </h3></figure>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                    <div class="row">
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                            <div class="product_box">
-                                <figure><img src="images/product_img3.jpg" alt="#" />
-                                    <h3>Vegetables</h3></figure>
-                            </div>
-                        </div>
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                            <div class="product_box">
-                                <figure><img src="images/product_img5.jpg" alt="#" />
-                                    <h3>Field Wheat </h3></figure>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-   
 
     <!-- end product -->
     <!-- clients -->
