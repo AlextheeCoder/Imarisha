@@ -158,7 +158,6 @@
 
     <div class="button-group">
         <button onclick="prevSection('section2', 'section1')">Previous</button>
-        <button type="button" onclick="submitForm()">Submit</button>
-
+        <button onclick="nextSection('section2', 'section3')">Next</button>
     </div>
 </div>

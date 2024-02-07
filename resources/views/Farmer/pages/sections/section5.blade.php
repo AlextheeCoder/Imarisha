@@ -6,31 +6,31 @@
         <label for="sales-channels">Sales Channels:</label>
         <div class="checkbox-group">
             <label class="checkbox">
-                <input type="checkbox" id="sales-channel-1" name="sales-channels[]" value="direct-to-consumers">
+                <input type="checkbox" id="sales-channel-1" name="sales_channels[]" value="direct-to-consumers">
                 <span class="checkmark"></span>
                 <span class="text">Direct to consumers</span>
             </label>
     
             <label class="checkbox">
-                <input type="checkbox" id="sales-channel-2" name="sales-channels[]" value="cooperatives-groups">
+                <input type="checkbox" id="sales-channel-2" name="sales_channels[]" value="cooperatives-groups">
                 <span class="checkmark"></span>
                 <span class="text">Cooperatives/groups</span>
             </label>
     
             <label class="checkbox">
-                <input type="checkbox" id="sales-channel-3" name="sales-channels[]" value="local-retailers">
+                <input type="checkbox" id="sales-channel-3" name="sales_channels[]" value="local-retailers">
                 <span class="checkmark"></span>
                 <span class="text">Local retailers</span>
             </label>
     
             <label class="checkbox">
-                <input type="checkbox" id="sales-channel-4" name="sales-channels[]" value="wholesalers">
+                <input type="checkbox" id="sales-channel-4" name="sales_channels[]" value="wholesalers">
                 <span class="checkmark"></span>
                 <span class="text">Wholesalers</span>
             </label>
     
             <label class="checkbox">
-                <input type="checkbox" id="sales-channel-5" name="sales-channels[]" value="online-platforms">
+                <input type="checkbox" id="sales-channel-5" name="sales_channels[]" value="online-platforms">
                 <span class="checkmark"></span>
                 <span class="text">Online platforms</span>
             </label>
@@ -42,7 +42,7 @@
 
 <div class="part">
     <label for="market-reliability">Market Reliability:</label>
-    <select id="market-reliability" name="market-reliability">
+    <select id="market-reliability" name="market_reliability">
         <option value="consistently-reliable">Consistently reliable</option>
         <option value="mostly-reliable">Mostly reliable</option>
         <option value="often-struggle">Often struggle</option>
@@ -55,37 +55,37 @@
     <label for="selling-challenges">Selling Challenges:</label>
     <div class="checkbox-group">
         <label class="checkbox">
-            <input type="checkbox" id="selling-challenge-1" name="selling-challenges[]" value="price-fluctuations">
+            <input type="checkbox" id="selling-challenge-1" name="selling_challenges[]" value="price-fluctuations">
             <span class="checkmark"></span>
             <span class="text">Price fluctuations</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="selling-challenge-2" name="selling-challenges[]" value="access-to-markets">
+            <input type="checkbox" id="selling-challenge-2" name="selling_challenges[]" value="access-to-markets">
             <span class="checkmark"></span>
             <span class="text">Access to markets</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="selling-challenge-3" name="selling-challenges[]" value="competition">
+            <input type="checkbox" id="selling-challenge-3" name="selling_challenges[]" value="competition">
             <span class="checkmark"></span>
             <span class="text">Competition</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="selling-challenge-4" name="selling-challenges[]" value="transportation-logistics">
+            <input type="checkbox" id="selling-challenge-4" name="selling_challenges[]" value="transportation-logistics">
             <span class="checkmark"></span>
             <span class="text">Transportation/logistics</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="selling-challenge-5" name="selling-challenges[]" value="quality-standards">
+            <input type="checkbox" id="selling-challenge-5" name="selling_challenges[]" value="quality-standards">
             <span class="checkmark"></span>
             <span class="text">Quality standards</span>
         </label>
 
         <label class="checkbox">
-            <input type="checkbox" id="selling-challenge-6" name="selling-challenges[]" value="marketing-skills">
+            <input type="checkbox" id="selling-challenge-6" name="selling_challenges[]" value="marketing-skills">
             <span class="checkmark"></span>
             <span class="text">Marketing skills</span>
         </label>

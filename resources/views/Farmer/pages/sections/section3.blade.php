@@ -59,7 +59,7 @@
     <label for="pay-for-training">Willingness to Pay for Training:</label>
     <div class="radio-group">
         <div class="custom-radio">
-            <input type="radio" id="pay-for-training-yes" name="pay_fortraining" value="yes">
+            <input type="radio" id="pay-for-training-yes" name="pay_for_training" value="yes">
             <label class="radio-label" for="pay-for-training-yes">
                 <div class="radio-circle"></div>
                 <span class="radio-text">Yes</span>

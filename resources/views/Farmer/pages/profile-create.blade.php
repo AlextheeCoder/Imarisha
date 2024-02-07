@@ -6,6 +6,11 @@
             @include('Farmer.pages.sections.section1')
               <!-- Section 2: Farming Practices and Challenges -->
             @include('Farmer.pages.sections.section2')
+            @include('Farmer.pages.sections.section3')
+            @include('Farmer.pages.sections.section4')
+            @include('Farmer.pages.sections.section5')
+            @include('Farmer.pages.sections.section6')
+
         </form>
     </div>
 
@@ -26,7 +31,7 @@
                 nextSectionElement.classList.add('current-section');
                 currentSection++;
             }
-            event.preventDefault();  // Prevent form submission and page reload
+            event.preventDefault();  
         }
     
         function prevSection() {
@@ -40,7 +45,7 @@
                 prevSectionElement.classList.add('current-section');
                 currentSection--;
             }
-            event.preventDefault();  // Prevent form submission and page reload
+            event.preventDefault();  
         }
     
         async function submitForm() {
@@ -67,7 +72,7 @@
             }
         }
     
-        // Attach the submitForm function to the submit button
+       
         document.querySelector('.farm-form button[type="submit"]').addEventListener('click', submitForm);
     </script>
         
