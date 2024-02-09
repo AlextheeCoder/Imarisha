@@ -66,7 +66,7 @@
                     throw new Error(message);
                 }
     
-                window.location.href = '/';
+                window.location.href = '/farmer/success';
             } catch (error) {
                 console.error('Form submission error:', error);
             }

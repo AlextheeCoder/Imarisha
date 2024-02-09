@@ -43,3 +43,9 @@ Route::get('/farmers/info', [FarmerController::class, 'farmer_info']);
 //Farm profile
 Route::get('/farm/profile', [FarmerController::class, 'farm_profile']);
 
+//Farmer view success
+Route::get('/farmer/success', [ProfileController::class,'viewSuccess']);
+
+//Farmer view report
+Route::get('/farmer/report', [ProfileController::class, 'viewReport']);
+

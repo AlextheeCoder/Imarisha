@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Profile;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Cache;
@@ -11,6 +12,23 @@ use Illuminate\Support\Facades\Cache;
 class ProfileController extends Controller
 {
     //
+
+    public function viewSuccess(){
+        return view('Farmer.pages.success');
+    }
+    
+    public function viewReport(){
+        $userId = auth()->user()->id;
+    
+        // Fetch the profile for the user
+        $profile = Profile::where('user_id', $userId)->with('user')->first();
+    
+        // Pass the profile data to the view
+        return view('Farmer.pages.farmer-report', ['profile' => $profile]);
+    }
+    
+
+    ///////////////////////
     public function store(Request $request)
     {
         
@@ -115,7 +133,7 @@ class ProfileController extends Controller
         Log::info('Request data:', $request->all());
         Profile::create($formFields);
     
-        return redirect('/')->with('message', 'success');
+        return view('farmer.pages.success')->with('message', 'success');
     }
     
 
