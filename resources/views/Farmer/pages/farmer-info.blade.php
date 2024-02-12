@@ -31,7 +31,7 @@
     </div>
 
 <div class="ceo-quote">
-    <h1>"We empower farmers, turning their farms into successful businesses and gateways to the middle class."</h1>
+    <h1>"Empowering Smallholder Farmers and Agrifood Entrepreneurs with Technology and Personalized Support"</h1>
 </div>
 
 <div id="about" class="about">

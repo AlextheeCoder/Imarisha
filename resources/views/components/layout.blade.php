@@ -60,9 +60,10 @@
                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
                         <div class="location_icon_bottum_tt">
                             <ul>
-                                <li><img src="{{ asset('icon/loc1.png') }}" />Location</li>
-                                <li><img src="{{ asset('icon/email1.png') }}" />demo@gmail.com</li>
+                                
+                                <li><img src="{{ asset('icon/email1.png') }}" />pemu.agrifood.academy@gmail.com</li>
                                 <li><img src="{{ asset('icon/call1.png') }}" />(+254)12345678</li>
+                               
                             </ul>                            
                         </div>
                     </div>

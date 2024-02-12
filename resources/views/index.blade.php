@@ -12,10 +12,10 @@
                     <img class="first-slide" style="  height: 50%;" src="images/pic1.jpg" alt="First slide">
                     <div class="container">
                         <div class="carousel-caption relative">
-                            <h1>Imarisha</h1>
+                            <h1>Pemu</h1>
                             <span>YOUR FARMING PARTNER</span>
 
-                            <p>Experience a revolutionary approach to farming with Imarisha – your dedicated partner in modern agriculture. Cultivate success as we bring innovation to your fields. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Join us on the journey of sustainable farming for a brighter future.</p>
+                            <p>Experience a revolutionary approach to farming with Pemu – your dedicated partner in modern agriculture. Cultivate success as we bring innovation to your fields. Join us on the journey of sustainable farming for a brighter future.</p>
                             <a class="buynow" href="/farmers/info">I am a Farmer</a><a class="buynow ggg" href="#">I am a Provider</a>
 
                         </div>
@@ -25,10 +25,10 @@
                     <img class="second-slide" style="  height: 50%;" src="images/pic2.jpg" alt="Second slide">
                     <div class="container">
                         <div class="carousel-caption relative">
-                            <h1>Imarisha</h1>
+                            <h1>Pemu</h1>
                             <span>YOUR FARMING PARTNER</span>
 
-                            <p>Imarisha empowers farmers with cutting-edge solutions for enhanced productivity and profitability. Unleash the potential of your farm with our advanced technologies and expert guidance. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elevate your farming experience and discover new possibilities with Imarisha.</p>
+                            <p>Pemu empowers farmers with cutting-edge solutions for enhanced productivity and profitability. Unleash the potential of your farm with our advanced technologies and expert guidance. Elevate your farming experience and discover new possibilities with Pemu Agrifood Academy.</p>
                             <a class="buynow" href="/farmers/info">I am a Farmer</a><a class="buynow ggg" href="#">I am a Provider</a>
 
                         </div>
@@ -38,10 +38,10 @@
                     <img class="third-slide" style="  height: 50%;" src="images/pic3.jpg" alt="Third slide">
                     <div class="container">
                         <div class="carousel-caption relative">
-                            <h1>Imarisha</h1>
+                            <h1>Pemu</h1>
                             <span>YOUR FARMING PARTNER</span>
 
-                            <p>Transform your farming endeavors with Imarisha – the ultimate farming partner. Navigate the path to success with our comprehensive tools and services. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Whether you're a farmer or a provider, Imarisha is your key to sustainable and prosperous agriculture.</p>
+                            <p>Transform your farming endeavors with Pemu – the ultimate farming partner. Navigate the path to success with our comprehensive tools and services. Whether you're a farmer or a provider, Pemu Agrifood Academy is your key to sustainable and prosperous agriculture.</p>
                             <a class="buynow" href="/farmers/info">I am a Farmer</a><a class="buynow ggg" href="#">I am a Provider</a>
 
                         </div>
@@ -63,9 +63,10 @@
             <div class="row">
                 <div class="col-xl-5 col-lg-5 col-md-5 co-sm-l2">
                     <div class="about_box">
-                        <h2>About Imarisha<br><strong class="black">Farmers Best Solution</strong></h2>
-                        <p>
-                            Imarisha is revolutionizing agriculture by connecting farmers with essential services. From financing and labor to marketing and training, our platform facilitates seamless collaborations between farmers and providers. With a user-friendly interface and advanced algorithms, Imarisha ensures tailored solutions, enhancing productivity and efficiency. Join us in cultivating a future where farmers have easy access to the support they need for sustainable growth.</p>
+                        <h2>About Pemu Agrifood Academy<br><strong class="black">Every Farmers Best Solution</strong></h2>
+                        <p> In the face of Kenya's evolving agrifood landscape, smallholder farmers and agrifood entrepreneurs encounter numerous challenges, including the adverse impacts of climate change, obstacles in accessing markets, and the imperative for sustainable farming methods. PEMU Agrifood Academy, a vibrant new startup, emerges as a trailblazer, poised to tackle these issues head-on. Our innovative platform marries the power of digital technology with the effectiveness of grassroots action, offering extensive online services alongside direct, personalized interactions with skilled advisors. Catering to individual preferences, PEMU ensures clients can engage with us online or benefit from the bespoke support of our experts located in villages across the region. This dual approach allows us to meet the diverse needs of our clients, ensuring access to vital tools, knowledge, and networks essential for overcoming challenges and achieving success.
+
+                            With a strategic blend of tech-based solutions and on-the-ground support, PEMU Agrifood Academy delivers the future of agrifood innovation to your doorstep, accommodating both online engagements and the value of face-to-face assistance. </p>
                         <a href="/farmers/info">Join Imarisha Farmers</a>
                     </div>
                 </div>
