@@ -77,8 +77,8 @@
                                         <nav class="main-menu">
                                             <ul class="menu-area-main">
                                                 <li class="active"> <a href="/">Home</a> </li>
-                                                <li> <a href="#Farmers">Farmers</a> </li>
-                                                <li><a href="#Providers">Providers</a></li>
+                                                <li> <a href="/farmers/info">Farmers</a> </li>
+                                                <li><a href="/providers/info">Providers</a></li>
                                                 <li><a href="#contact">Contact Us</a></li>
 
                                             </ul>

@@ -3,6 +3,7 @@
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\FarmerController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ProviderController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 
@@ -48,4 +49,7 @@ Route::get('/farmer/success', [ProfileController::class,'viewSuccess']);
 
 //Farmer view report
 Route::get('/farmer/report', [ProfileController::class, 'viewReport']);
+
+//Provider view info
+Route::get('/providers/info', [ProviderController::class,'providersinfo']);
 

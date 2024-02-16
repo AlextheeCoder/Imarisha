@@ -16,7 +16,7 @@
                             <span>YOUR FARMING PARTNER</span>
 
                             <p>Experience a revolutionary approach to farming with Pemu – your dedicated partner in modern agriculture. Cultivate success as we bring innovation to your fields. Join us on the journey of sustainable farming for a brighter future.</p>
-                            <a class="buynow" href="/farmers/info">I am a Farmer</a><a class="buynow ggg" href="#">I am a Provider</a>
+                            <a class="buynow" href="/farmers/info">I am a Farmer</a><a class="buynow ggg" href="#">Become a Provider</a>
 
                         </div>
                     </div>
@@ -29,7 +29,7 @@
                             <span>YOUR FARMING PARTNER</span>
 
                             <p>Pemu empowers farmers with cutting-edge solutions for enhanced productivity and profitability. Unleash the potential of your farm with our advanced technologies and expert guidance. Elevate your farming experience and discover new possibilities with Pemu Agrifood Academy.</p>
-                            <a class="buynow" href="/farmers/info">I am a Farmer</a><a class="buynow ggg" href="#">I am a Provider</a>
+                            <a class="buynow" href="/farmers/info">I am a Farmer</a><a class="buynow ggg" href="#">Become a Provider</a>
 
                         </div>
                     </div>
@@ -42,7 +42,7 @@
                             <span>YOUR FARMING PARTNER</span>
 
                             <p>Transform your farming endeavors with Pemu – the ultimate farming partner. Navigate the path to success with our comprehensive tools and services. Whether you're a farmer or a provider, Pemu Agrifood Academy is your key to sustainable and prosperous agriculture.</p>
-                            <a class="buynow" href="/farmers/info">I am a Farmer</a><a class="buynow ggg" href="#">I am a Provider</a>
+                            <a class="buynow" href="/farmers/info">I am a Farmer</a><a class="buynow ggg" href="#">Become a Provider</a>
 
                         </div>
                     </div>
@@ -64,10 +64,8 @@
                 <div class="col-xl-5 col-lg-5 col-md-5 co-sm-l2">
                     <div class="about_box">
                         <h2>About Pemu Agrifood Academy<br><strong class="black">Every Farmers Best Solution</strong></h2>
-                        <p> In the face of Kenya's evolving agrifood landscape, smallholder farmers and agrifood entrepreneurs encounter numerous challenges, including the adverse impacts of climate change, obstacles in accessing markets, and the imperative for sustainable farming methods. PEMU Agrifood Academy, a vibrant new startup, emerges as a trailblazer, poised to tackle these issues head-on. Our innovative platform marries the power of digital technology with the effectiveness of grassroots action, offering extensive online services alongside direct, personalized interactions with skilled advisors. Catering to individual preferences, PEMU ensures clients can engage with us online or benefit from the bespoke support of our experts located in villages across the region. This dual approach allows us to meet the diverse needs of our clients, ensuring access to vital tools, knowledge, and networks essential for overcoming challenges and achieving success.
-
-                            With a strategic blend of tech-based solutions and on-the-ground support, PEMU Agrifood Academy delivers the future of agrifood innovation to your doorstep, accommodating both online engagements and the value of face-to-face assistance. </p>
-                        <a href="/farmers/info">Join Imarisha Farmers</a>
+                        <p>PEMU Agrifood Academy, a pioneering startup in Kenya's agrifood sector, addresses challenges like climate change and market access. Our innovative platform combines digital technology with grassroots action, offering comprehensive online services and personalized interactions with skilled advisors. Clients can engage online or receive support from experts in local villages, ensuring access to essential tools, knowledge, and networks. PEMU delivers the future of agrifood innovation through a strategic blend of tech solutions and on-the-ground assistance, accommodating both online and face-to-face engagements. </p>
+                        <a href="/farmers/info">Join Imarisha</a>
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-7 col-md-7 co-sm-l2">
@@ -116,30 +114,7 @@
     </div>
     <!-- end for_box -->
 
-    <!--another about for providers -->
-    <div id="about" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-7 col-lg-7 col-md-7 co-sm-l2">
-                    <div class="about_img">
-                        <figure><img src="images/provider.jpg" alt="img" style="border-radius: 100%" /></figure>
-                    </div>
-                </div>
-                <div class="col-xl-5 col-lg-5 col-md-5 co-sm-l2">
-                    <div class="about_box">
-                        <h2>About Imarisha<br><strong class="black">Our Providers</strong></h2>
-                        <p>
-                            Imarisha welcomes providers to revolutionize agriculture with their expertise. Join our platform to optimize crops, enhance livestock, offer financial solutions, and connect with skilled labor. By partnering with Imarisha, you contribute to a robust support network, empowering farmers and driving sustainable growth. Join us in shaping the future of agriculture and expanding your influence in the industry.
-                        </p>
-                        <a href="#">Become a Provider</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
 
-    <!-- end for another about -->
     <!-- offer -->
     <div class="offer">
         <div class="container">
@@ -154,41 +129,70 @@
         <div class="offer-bg">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 ">
-                        <div class="offer_box">
-                            <h3>Crops</h3>
-                            <figure><img src="images/offer1.png" alt="img" /></figure>
-                            <p>Maximize your crop yield with Imarisha's innovative solutions, designed to enhance cultivation practices and optimize agricultural output.</p>
-                        </div>
+                  <!-- Card 1 -->
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img src="images/offer1.jpg" class="card-img-top" alt="Card Image 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Customized Learning and Development</h5>
+                        <p class="card-text">Delve into specialized courses and workshops focused on advanced regenerative agriculture techniques, sustainable business practices, and effective management strategies.</p>
+                      </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin_ttt">
-                        <div class="offer_box">
-                            <h3>Livestock</h3>
-                            <figure><img src="images/cow.jpg" alt="img" style="border-radius: 50px"/></figure>
-                            <p>Elevate your livestock management with Imarisha, ensuring healthier animals and improved farming practices for increased productivity.</p>
-                        </div>
+                  </div>
+                  
+                  <!-- Card 2 -->
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img src="images/labor.jpg" class="card-img-top" alt="Card Image 2">
+                      <div class="card-body">
+                        <h5 class="card-title">Access to Sustainable Inputs and Technologies</h5>
+                        <p class="card-text">Connect with a curated assortment of the latest sustainable farming inputs and technologies aimed at enhancing productivity and environmental stewardship.</p>
+                      </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin-lkk">
-                        <div class="offer_box">
-                            <h3>Labor</h3>
-                            <figure><img src="images/labor.jpg" alt="img"  style="border-radius: 50px" /></figure>
-                            <p>Improve efficiency and reduce labor challenges with Imarisha's solutions, connecting you with skilled workers to enhance your farming operations.</p>
-                        </div>
-                    </div>
+                  </div>
             
-                    <div class="col-md-12">
-                        <a class="read-more">Join us !</a>
+                  <!-- Card 3 -->
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img src="images/ladymarket.jpg" class="card-img-top" alt="Card Image 3">
+                      <div class="card-body">
+                        <h5 class="card-title">Expansive Market Opportunities</h5>
+                        <p class="card-text">Utilize our extensive network to access local and global markets, ensuring your products and services are positioned to thrive.</p>
+                      </div>
                     </div>
+                  </div>
                 </div>
-            </div>
-            
+              </div>
         </div>
     </div>
 
     <!-- end offer -->
 
     <!-- product -->
+ <!--another about for providers -->
+ <div id="about" class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-7 col-lg-7 col-md-7 co-sm-l2">
+                <div class="about_img">
+                    <figure><img src="images/Founder.jpg" alt="img" style="border-radius: 100%" /></figure>
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-5 col-md-5 co-sm-l2">
+                <div class="about_box">
+                    <h2>Meet Our Founder<br><strong class="black">Peter Muthee, A Visionary Leader</strong></h2>
+                    <p>
+                        At the helm of PEMU Agrifood Academy's innovative strategy is our founder, Peter Muthee. With an illustrious background spanning over 25 years in the agrifood sector, Peter's journey is marked by significant achievements in production, processing, and international trade. His unwavering belief in the power of education as the foundation for agricultural and business growth has inspired numerous initiatives that have upskilled farmers and entrepreneurs alike. By founding PEMU, Peter leverages his global expertise and insights to cultivate an ecosystem where sustainable and regenerative agrifood practices empower industry leaders of tomorrow.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
+
+<!-- end for another about -->
     <!-- end product -->
     <!-- clients -->
     <div id="testimonial" class="clients">
@@ -224,7 +228,7 @@
                                     </div>
                                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pa_left">
                                         <div class="cross_inner">
-                                            <h3>John Kamau<br><strong class="ornage_color">Imarisha</strong></h3>
+                                            <h3>John Kamau<br><strong class="ornage_color">PEMU</strong></h3>
                                             <p><img src="icon/1.png" alt="#" />Imarisha has revolutionized my farming journey. The platform's seamless connectivity with providers has significantly improved my crop yield and operational efficiency. A game-changer in agriculture! <img src="icon/2.png" alt="#" /></p>
                                         </div>
                                     </div>
@@ -244,7 +248,7 @@
                                     </div>
                                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pa_left">
                                         <div class="cross_inner">
-                                            <h3>Eddie Kimathi<br><strong class="ornage_color">Imarisha</strong></h3>
+                                            <h3>Eddie Kimathi<br><strong class="ornage_color">PEMU</strong></h3>
                                             <p><img src="icon/1.png" alt="#" />Imarisha is a game-changer in the agricultural sector. With their support, my livestock management has reached new heights, and I've gained access to invaluable resources for sustainable farming.  <img src="icon/2.png" alt="#" /></p>
                                         </div>
                                     </div>
@@ -264,7 +268,7 @@
                                     </div>
                                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pa_left">
                                         <div class="cross_inner">
-                                            <h3>Frank Mwenda<br><strong class="ornage_color">Imarisha</strong></h3>
+                                            <h3>Frank Mwenda<br><strong class="ornage_color">PEMU</strong></h3>
                                             <p><img src="icon/1.png" alt="#" />Imarisha has transformed my farming experience. Their platform connects me with reliable providers, and the result is improved crop yield, healthier livestock, and overall increased efficiency. <img src="icon/2.png" alt="#" /></p>
                                         </div>
                                     </div>
@@ -280,6 +284,57 @@
     </div>
   
     <!-- end clients -->
+
+    <!-- Blogs -->
+    <div class="blogs">
+        <div class="container">
+            <h2 class="section-title">Read Our Blogs</h2>
+            <div class="row">
+                <!-- Blog Card 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/blog1.jpg" class="card-img-top" alt="Blog Image 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Sowing Empowerment: Celebrating the Role of Women in Farming</h5>
+                            <p class="card-text">Brief content snippet for Blog 1.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Blog Card 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/blog2.jpg" class="card-img-top" alt="Blog Image 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Harvesting Success: Mastering the Art of Selling Farm Products Like a Pro</h5>
+                            <p class="card-text">Brief content snippet for Blog 2.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Blog Card 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/blog3.jpg" class="card-img-top" alt="Blog Image 3">
+                        <div class="card-body">
+                            <h5 class="card-title">From Seed to Shelf: Crafting and Marketing Exceptional Products</h5>
+                            <p class="card-text">Brief content snippet for Blog 3.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- View All Blogs Button -->
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-outline-primary">View All Blogs</a>
+            </div>
+        </div>
+    </div>
+    <!-- end Blogs -->
+
     <!-- contact -->
 
     <div id="contact" class="contact">
