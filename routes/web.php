@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\FarmerController;
 use App\Http\Controllers\ProfileController;
@@ -42,14 +43,17 @@ Route::get('/farmers/info', [FarmerController::class, 'farmer_info']);
 
 
 //Farm profile
-Route::get('/farm/profile', [FarmerController::class, 'farm_profile']);
+Route::get('/farm/profile', [FarmerController::class, 'farm_profile'])->middleware('checkRole:farmer,admin');
 
 //Farmer view success
-Route::get('/farmer/success', [ProfileController::class,'viewSuccess']);
+Route::get('/farmer/success', [ProfileController::class,'viewSuccess'])->middleware('checkRole:farmer,admin');
 
 //Farmer view report
-Route::get('/farmer/report', [ProfileController::class, 'viewReport']);
+Route::get('/farmer/report', [ProfileController::class, 'viewReport'])->middleware('checkRole:farmer,admin');
 
 //Provider view info
 Route::get('/providers/info', [ProviderController::class,'providersinfo']);
+
+Route::get('/pemu-admin',[AdminController::class,'index'])->middleware('checkRole:admin');
+
 

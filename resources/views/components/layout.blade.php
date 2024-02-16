@@ -179,6 +179,9 @@
         </div>
     </footer>
 
+    <x-flash-message />
+    <x-flash-error />
+
     <!-- end footer -->
     <!-- Javascript files-->
     
