@@ -1,6 +1,6 @@
 <div class="form-section" id="section2">
                
-    <h2>Section 2: Farming Practices and Challenges</h2>
+    <h2>Farming Practices and Challenges</h2>
      <!-- Section 2: Farming Practices and Challenges -->
     
      <div class="part">
@@ -157,7 +157,7 @@
 
 
     <div class="button-group">
-        <button onclick="prevSection('section2', 'section1')">Previous</button>
-        <button onclick="nextSection('section2', 'section3')">Next</button>
+        <button class="button" onclick="prevSection('section2', 'section1')">Previous</button>
+        <button class="button" onclick="nextSection('section2', 'section3')">Next</button>
     </div>
 </div>

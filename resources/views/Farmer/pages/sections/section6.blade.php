@@ -1,5 +1,5 @@
 <div class="form-section" id="section6">
-    <h2>Section 6</h2>
+    <h2>Crop and Livestock Enterprises</h2>
     <div class="part">
         <label for="current-crops">Current Crops:</label>
         <div class="checkbox-group">
@@ -242,7 +242,7 @@
 
 
     <div class="button-group">
-        <button onclick="prevSection('section6', 'section5')">Previous</button>
-        <button type="button" onclick="submitForm()">Submit</button>
+        <button class="button" onclick="prevSection('section6', 'section5')">Previous</button>
+        <button class="button" type="button" onclick="submitForm()">Submit</button>
     </div>  
 </div>

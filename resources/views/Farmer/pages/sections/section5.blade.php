@@ -1,6 +1,6 @@
 <div class="form-section" id="section5">
 
-    <h2>Section 5</h2>
+    <h2>Sales and Marketing</h2>
 
     <div class="part">
         <label for="sales-channels">Sales Channels:</label>
@@ -97,7 +97,7 @@
 
 
     <div class="button-group">
-        <button onclick="prevSection('section5', 'section4')">Previous</button>
-        <button onclick="nextSection('section5', 'section6')">Next</button>
+        <button class="button" onclick="prevSection('section5', 'section4')">Previous</button>
+        <button class="button" onclick="nextSection('section5', 'section6')">Next</button>
     </div> 
 </div>

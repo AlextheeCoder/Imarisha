@@ -1,5 +1,5 @@
 <div class="form-section current-section" id="section1">
-    <h2>Section 1: General Information</h2>
+    <h2>General Information</h2>
     <div class="part">
         <label for="farm-type">Type of Farming Entity:</label>
         <select id="farm-type" name="farm_type" required>
@@ -19,5 +19,5 @@
         </select>
     </div>
     
-    <button onclick="nextSection('section1', 'section2')">Next</button>
+    <button class="button" onclick="nextSection('section1', 'section2')">Next</button>
 </div>

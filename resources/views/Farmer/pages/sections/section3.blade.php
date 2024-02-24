@@ -1,5 +1,5 @@
 <div class="form-section" id="section3">
-    <h2>Section 3</h2>
+    <h2>Training and Extension Services</h2>
 <div class="part">
     <label for="interest-training">Interest in Training Services:</label>
     <select id="interest-training" name="interest_training">
@@ -118,7 +118,7 @@
 </div>
 
 <div class="button-group">
-    <button onclick="prevSection('section3', 'section2')">Previous</button>
-    <button onclick="nextSection('section3', 'section4')">Next</button>
+    <button class="button" onclick="prevSection('section3', 'section2')">Previous</button>
+    <button  class="button" onclick="nextSection('section3', 'section4')">Next</button>
 </div>
 </div>

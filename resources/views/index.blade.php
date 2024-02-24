@@ -16,7 +16,7 @@
                             <span>YOUR FARMING PARTNER</span>
 
                             <p>Experience a revolutionary approach to farming with Pemu – your dedicated partner in modern agriculture. Cultivate success as we bring innovation to your fields. Join us on the journey of sustainable farming for a brighter future.</p>
-                            <a class="buynow" href="/farmers/info">I am a Farmer</a><a class="buynow ggg" href="#">Become a Provider</a>
+                            <a class="buynow" href="/farmers/info">I am a Farmer</a><a class="buynow ggg" href="/providers/info">Become a Provider</a>
 
                         </div>
                     </div>
@@ -29,7 +29,7 @@
                             <span>YOUR FARMING PARTNER</span>
 
                             <p>Pemu empowers farmers with cutting-edge solutions for enhanced productivity and profitability. Unleash the potential of your farm with our advanced technologies and expert guidance. Elevate your farming experience and discover new possibilities with Pemu Agrifood Academy.</p>
-                            <a class="buynow" href="/farmers/info">I am a Farmer</a><a class="buynow ggg" href="#">Become a Provider</a>
+                            <a class="buynow" href="/farmers/info">I am a Farmer</a><a class="buynow ggg" href="/providers/info">Become a Provider</a>
 
                         </div>
                     </div>
@@ -42,7 +42,7 @@
                             <span>YOUR FARMING PARTNER</span>
 
                             <p>Transform your farming endeavors with Pemu – the ultimate farming partner. Navigate the path to success with our comprehensive tools and services. Whether you're a farmer or a provider, Pemu Agrifood Academy is your key to sustainable and prosperous agriculture.</p>
-                            <a class="buynow" href="/farmers/info">I am a Farmer</a><a class="buynow ggg" href="#">Become a Provider</a>
+                            <a class="buynow" href="/farmers/info">I am a Farmer</a><a class="buynow ggg" href="/providers/info">Become a Provider</a>
 
                         </div>
                     </div>

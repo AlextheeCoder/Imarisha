@@ -64,30 +64,35 @@
 				
 			</div>
 
-			<div class="bestseller">
-				<h2>Blogs</h2>
-				<p>Discover the top 3 Blogs of the week</p>
-				<div class="product-list">
-					<div class="product">
-						<img src="{{ asset('images/provider.jpg') }}" alt="iPhone 11 Pro Max">
-						<div class="product-info">
-							<h3>Sowing Empowerment: Celebrating the Role of Women in Farming</h3>
-							<p>by <span style="color: black">Alex Mwai</span></p>
-							<p style="color: blue">382 views</p>
+			<div class="main-content">
+				<div class="bestseller">
+					<h2>Blogs</h2>
+					<p>Discover the top 3 Blogs of the week</p>
+					<div class="product-list">
+						<div class="product">
+							<img src="{{ asset('images/provider.jpg') }}" alt="iPhone 11 Pro Max">
+							<div class="product-info">
+								<h3>Sowing Empowerment: Celebrating the Role of Women in Farming</h3>
+								<p>by <span style="color: black">Alex Mwai</span></p>
+								<p style="color: blue">382 views</p>
+							</div>
+						</div>
+				
+						<div class="product">
+							<img src="{{ asset('images/provider.jpg') }}" alt="iPhone 11 Pro Max">
+							<div class="product-info">
+								<h3>Harvesting Success: Mastering the Art of Selling Farm Products Like a Pro</h3>
+								<p>by <span style="color: black">Peter Muthee</span></p>
+								<p style="color: blue">382 views</p>
+							</div>
 						</div>
 					</div>
-			
-					<div class="product">
-						<img src="{{ asset('images/provider.jpg') }}" alt="iPhone 11 Pro Max">
-						<div class="product-info">
-							<h3>Harvesting Success: Mastering the Art of Selling Farm Products Like a Pro</h3>
-							<p>by <span style="color: black">Peter Muthee</span></p>
-							<p style="color: blue">382 views</p>
-						</div>
-					</div>
-				</div>
-				<a href="#">See All</a>
+					<a href="#">See All</a>
+				</div> 
 			</div>
+
+			
+		
 			
 			
 			

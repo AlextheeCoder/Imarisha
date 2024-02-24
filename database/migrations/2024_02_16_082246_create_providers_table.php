@@ -13,7 +13,17 @@ return new class extends Migration
     {
         Schema::create('providers', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('user_id');
+            $table->string('organization_name');
+            $table->string('website')->nullable();
+            $table->string('type');
+            $table->string('target_profile');
+            $table->text('about')->nullable();
+
             $table->timestamps();
+
+
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 

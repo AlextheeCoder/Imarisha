@@ -3,7 +3,7 @@
     <div class="farm-info-header">
         <h1>"PEMU Empowers Smallholder Farmers and Agrifood Entrepreneurs with Technology and Personalized Support"</h1>
         @auth
-            <a href="/farm/profile">Create Your PEMU Profile!</a>
+            <a href="/providers/profile">Create Your PEMU Profile!</a>
          @else
             <a href="/login">Sign In</a>
         @endauth
