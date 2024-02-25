@@ -8,7 +8,9 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 use App\Http\Controllers\Controller;
 use App\Models\Input;
+use App\Models\Knowledgeprovider;
 use App\Models\Labor;
+use App\Models\Market;
 
 class ProviderController extends Controller
 {
@@ -19,6 +21,17 @@ class ProviderController extends Controller
 
     public function provider_profile(){
         return view('Provider.provider-profile');
+    }
+
+    public function viewReport(){
+        $userId = auth()->user()->id;
+    
+        // Fetch the profile for the user
+        $profile = Provider::where('user_id', $userId)->with('user')->first();
+    
+        // Pass the profile data to the view
+        return view('Provider.provider-report', ['profile' => $profile]);
+     
     }
 
     public function provider_store(Request $request){
@@ -34,8 +47,7 @@ class ProviderController extends Controller
         $user = $request->user();
         $userId = $user->id;
         $formFields['user_id'] = $userId;
-        info($formFields);
-        Log::info('Request data:', $request->all());
+        
         
 
             if ($request->type === 'financial') {
@@ -51,11 +63,11 @@ class ProviderController extends Controller
             }
             elseif ($request->type === 'marketing') {
                 Provider::create($formFields);
-                return view('');  
+                return view('Provider.provider-forms.markets');
             }
             elseif ($request->type === 'knowledge') {
                 Provider::create($formFields);
-                return view(''); 
+                return view('Provider.provider-forms.knowledge');
             }else {
                 
                 return view('Provider.provider-profile')->with('error', 'Try again'); 
@@ -66,7 +78,7 @@ class ProviderController extends Controller
     public function financial_provider(Request $request){
         $formFields = $request->validate([
             'loan_types' => 'required|string',
-            'interest_rates' => 'nullable|double',
+            'interest_rates' => 'nullable',
             'repayment_terms' => 'required|string',
             'eligibility_criteria' => 'required|string',
             'savings_products' => 'required|string',  
@@ -108,10 +120,6 @@ class ProviderController extends Controller
 
         ]);
 
-
-
-
-        //Section 6 Checkbox
         $formFields['seed_types'] = $request->input('seed_types');
         $formFields['fertilizers'] = $request->input('fertilizers');
         $formFields['pesticides'] = $request->input('pesticides');
@@ -145,10 +153,84 @@ class ProviderController extends Controller
         $user = $request->user();
         $providerId = $user->id;
         $formFields['provider_id'] = $providerId;
+        
 
         Labor::create($formFields);
 
         return view('Provider.success');
 
     }
+
+    public function marketing_provider(Request $request){
+        $formFields = $request->validate([
+            'market_channels' => 'nullable|string',
+            'value_addition' => 'nullable',
+            'transport_provided' => 'nullable|string',
+            'pricing_models' => 'nullable|string',
+            'quality_standards' => 'nullable|string',  
+            'contract_terms' => 'nullable|string',  
+
+             //Checkbox sections
+             'target_crops' => 'nullable|array',
+             'target_crops.*' => 'nullable|string',
+ 
+             'target_livestock' => 'nullable|array',
+             'target_livestock.*' => 'nullable|string',
+
+        ]);
+
+       
+
+        $formFields['target_crops'] = $request->input('target_crops');
+        $formFields['target_livestock'] = $request->input('target_livestock');
+
+        info($formFields);
+        Log::info('Request data:', $request->all());
+        $user = $request->user();
+        $providerId = $user->id;
+        $formFields['provider_id'] = $providerId;
+
+        Market::create($formFields);
+
+        return view('Provider.success');
+
+    }
+
+    public function knowledge_provider(Request $request){
+        $formFields = $request->validate([
+            'pricing_models' => 'nullable|string',
+            'credentials' => 'nullable',
+           
+
+             //Checkbox sections
+             'target_crops' => 'nullable|array',
+             'target_crops.*' => 'nullable|string',
+ 
+             'target_livestock' => 'nullable|array',
+             'target_livestock.*' => 'nullable|string',
+
+             'delivery_methods' => 'nullable|array',
+             'delivery_methods.*' => 'nullable|string',
+
+        ]);
+
+       
+
+        $formFields['target_crops'] = $request->input('target_crops');
+        $formFields['target_livestock'] = $request->input('target_livestock');
+        $formFields['delivery_methods'] = $request->input('target_livestock');
+
+        $user = $request->user();
+        $providerId = $user->id;
+        $formFields['provider_id'] = $providerId;
+
+        Knowledgeprovider::create($formFields);
+
+        return view('Provider.success');
+
+    }
+
+
+
+
 }

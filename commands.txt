@@ -11,6 +11,9 @@ php artisan make:migration create_financials_table --create=financials
 php artisan make:migration create_labors_table --create=labors
 
 php artisan make:migration create_inputs_table --create=inputs
+php artisan make:migration create_markets_table --create=markets
+
+php artisan make:migration create_knowledgeproviders_table --create=knowledgeproviders
 
 php artisan migrate:refresh --seed
 php artisan make:controller FarmerController
@@ -25,6 +28,10 @@ php artisan make:model Financial
 php artisan make:model Labor
 
 php artisan make:model Input
+
+php artisan make:model Market
+
+php artisan make:model Knowledgeprovider
 
 
 php artisan make:migration create_issues_table --create=issues

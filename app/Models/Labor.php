@@ -12,6 +12,7 @@ class Labor extends Model
         'provider_id',
         'skill_levels',
         'specializations',
+        'contract_types',
         'availability',
         'pricing_model',
         'verified',

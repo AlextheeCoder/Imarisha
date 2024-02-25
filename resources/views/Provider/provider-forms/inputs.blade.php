@@ -4,27 +4,25 @@
         @csrf
     <div class="form-section current-section">
         <h2>Create Your Provider Profile</h2>
-    
-
         <div class="part">
             <label for="training-areas">What kind of seeds do you provide:</label>
             <div class="checkbox-group">
                 <label class="checkbox">
-                    <input type="checkbox" id="seed-types-1" name="seed_types[]" value="cereals">
+                    <input type="checkbox" id="seed-types-1" name="seed_types[]" value="staple">
                     <span class="checkmark"></span>
-                    <span class="text">Cereals</span>
+                    <span class="text">Staple food crops</span>
                 </label>
         
                 <label class="checkbox">
-                    <input type="checkbox" id="seed-types-2" name="seed_types[]" value="legumes">
+                    <input type="checkbox" id="seed-types-2" name="seed_types[]" value="cash">
                     <span class="checkmark"></span>
-                    <span class="text">Legumes</span>
+                    <span class="text">Cash crops</span>
                 </label>
         
                 <label class="checkbox">
-                    <input type="checkbox" id="seed-types-3" name="seed_types[]" value="vegetables">
+                    <input type="checkbox" id="seed-types-3" name="seed_types[]" value="fruits_and_vegetables">
                     <span class="checkmark"></span>
-                    <span class="text">Vegetables</span>
+                    <span class="text">Fruits and vegetables</span>
                 </label>
         
                 <label class="checkbox">

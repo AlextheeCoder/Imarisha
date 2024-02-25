@@ -26,7 +26,7 @@ return new class extends Migration
             $table->string('pricing_model')->nullable(); // "Hourly", "Daily", "Per-Task", "Negotiable",none
 
             // Other Considerations 
-            $table->boolean('verified')->default(false); // Has the provider verified these workers?
+            $table->string('verified')->default(false); // Has the provider verified these workers?
             $table->text('additional_info')->nullable(); // Free-form for other details
 
 

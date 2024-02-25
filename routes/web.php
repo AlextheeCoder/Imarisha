@@ -70,6 +70,16 @@ Route::post('/provider/financial/store', [ProviderController::class,'financial_p
 //Store Inputs Provider info
 Route::post('/provider/inputs/store', [ProviderController::class,'inputs_provider']);
 
-//Store Inputs Provider info
+//Store Labor Provider info
 Route::post('/provider/labor/store', [ProviderController::class,'labor_provider']);
 
+//Store Marketing Provider info
+Route::post('/provider/marketing/store', [ProviderController::class,'marketing_provider']);
+
+
+
+//Store Knowledge Provider info
+Route::post('/provider/knowledge/store', [ProviderController::class,'knowledge_provider']);
+
+//Farmer provider report
+Route::get('/provider/profile', [ProviderController::class, 'viewReport'])->middleware('checkRole:provider,admin');

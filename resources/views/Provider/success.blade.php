@@ -5,7 +5,7 @@
                 <i class="checkmark">✓</i>
             </div>
             <h1>Success</h1> 
-            <p>Your profile has been created<br/> <a href="">View your Report</a> </p>
+            <p>Your profile has been created<br/> <a href="/provider/profile">View your Profile</a> </p>
         </div>
     
     </div>
